@@ -1,0 +1,42 @@
+{
+  "name": "sessions-and-cookies-and-auth-oh-my",
+  "version": "1.0.0",
+  "description": "A starter repo for a instructional on sessions, cookies, and auth",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon bin/www --exec babel-node --presets es2015,stage-2",
+    "db:create": "createdb auth-system-starter",
+    "db:delete": "deletedb auth-system-starter"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DianaVashti/sessions-and-cookies-and-auth-ohMy.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DianaVashti/sessions-and-cookies-and-auth-ohMy/issues"
+  },
+  "homepage": "https://github.com/DianaVashti/sessions-and-cookies-and-auth-ohMy#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.18.2",
+    "cookie-parser": "^1.4.3",
+    "debug": "^3.1.0",
+    "dotenv": "^4.0.0",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "pg-promise": "^7.2.0",
+    "serve-favicon": "^2.4.5"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1"
+  }
+}
