@@ -2,7 +2,6 @@
 A starter repo for a instructional on sessions, cookies, and auth
 
 # SPECS:
-- to run commands make sure you have `cd`'d in to the `tutorial` folder
 - There are two tracks to choose from:
   - Follow a tutorial with some minor changes
     - The tutorial will walk you through the whole thing but uses sequelize ORM for db build and transactions. Try and review the tutorial but implement it with vanilla postgreSQL schema design and pg-promise instead.
@@ -12,6 +11,7 @@ A starter repo for a instructional on sessions, cookies, and auth
 
 ## Track 1
   - All coding done in the folder 'tutorial'
+  - To run commands make sure you have `cd`'d in to the `tutorial` folder
   - All the files you will use are created but blank.
     - The `html` files are already done, you only need to write code in `server.js` and `models/user.js`.
       - if you are doing with vanilla pg you may need to create additional files
