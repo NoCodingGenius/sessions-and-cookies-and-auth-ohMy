@@ -34,7 +34,7 @@ User.prototype.validPassword = function(password) {
 - [ ] user can sign up
 - [ ] user can log in after signing up
   - [ ] signing in uses cookies to store session information
-  - [ ] session expires after 6000 ms.
+  - [ ] session expires after 600000 ms.
 - [ ] If there is no active session user is redirected to the login page.
 - [ ] after user sign's up they are redirected to `dashboard.html`
 - [ ] after a signed up user logs in, they are redirected to `dashboard.html`
@@ -56,7 +56,7 @@ User.prototype.validPassword = function(password) {
 - [ ] user can sign up
 - [ ] user can log in after signing up
   - [ ] signing in uses cookies to store session information
-  - [ ] session expires after 6000 ms.
+  - [ ] session expires after 600000 ms.
 - [ ] If there is no active session user is redirected to the login page.
 - [ ] after user sign's up they are redirected to `dashboard.ejs`
 - [ ] after a signed up user logs in, they are redirected to `dashboard.ejs`
