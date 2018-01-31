@@ -1,0 +1,26 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: aqua;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.edit-form {
+  display: none;
+}
+
+.save-btn {
+  display: none;
+}
+
+.item {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.table {
+  background-color: ghostwhite;
+}
