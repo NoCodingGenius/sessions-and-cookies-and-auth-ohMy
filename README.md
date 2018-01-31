@@ -4,10 +4,10 @@ A starter repo for a instructional on sessions, cookies, and auth
 # SPECS:
 
 - There are two tracks to choose from:
-  1. Follow a tutorial with some minor changes
+  - Follow a tutorial with some minor changes
     - The tutorial will walk you through the whole thing but uses sequelize ORM for db build and transactions. Try and review the tutorial but implement it with vanilla postgreSQL schema design and pg-promise instead.
     - if you choose this follow the specs for Track 1.
-  1. Do from a starter repo:
+  - Do from a starter repo:
     - scroll down to Track 2.
 
 ## Track 1
