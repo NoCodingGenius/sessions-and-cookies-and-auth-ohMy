@@ -11,7 +11,6 @@ A starter repo for a instructional on sessions, cookies, and auth
     - scroll down to Track 2.
 
 ## Track 1
-remember the bug
   - All coding done in the folder 'tutorial'
   - All the files you will use are created but blank.
     - The `html` files are already done, you only need to write code in `server.js` and `models/user.js`.
