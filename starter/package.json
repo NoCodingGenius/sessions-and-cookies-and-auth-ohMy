@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon bin/www --exec babel-node --presets es2015,stage-2",
+    "db:init": "psql < ./src/models/db/schema.sql",
     "db:create": "createdb auth-system-starter",
     "db:delete": "deletedb auth-system-starter"
   },
